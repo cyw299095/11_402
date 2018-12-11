@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+	<head>
+
+<meta http-equiv="contebt-type" content="text/html;charset=gb2312"/>
+		<meta charset="utf-8" />
+		<title>11栋402</title>
+	<script type="text/javascript"src="js/new_file.js"></script>
+	<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		background-repeat: no-repeat;
+                                   background-size: 100%;
+		-webkit-perspective:800;
+	}
+	li{
+		list-style: none;
+	}
+	.box{
+		width:200px;
+		height:200px;
+		position: relative;
+		margin:300px auto;
+		-webkit-transform-style:preserve-3d;
+		-webkit-transform:rotateX(90deg);
+		-webkit-animation:move 5s linear infinite;
+	}
+	.minbox{
+		width:100px;
+		height:100px;
+		position: absolute;
+		left:50px;
+		top:50px;
+		-webkit-transform-style:preserve-3d;
+	}
+	.minbox li{
+		width:200px;
+		height:200px;
+		position: absolute;
+		left:0;
+		top:0;
+	}
+	.cyw p{
+		font-family: 华文行楷;
+        font-size: 20px;
+        font-weight: 100;
+	    color:black;
+	}
+        .cyw b{
+         font-family: 华文行楷;
+         font-size: 20px;
+         font-weight: 100;
+	     color:#FFFFFF;
+        }
+	.minbox li:nth-child(1){
+		background: url(img/01.gif) no-repeat 0 0;
+		-webkit-transform:translateZ(150px);
+	}
+	.minbox li:nth-child(2){
+		background: url(img/02.gif) no-repeat 0 0;
+		-webkit-transform:rotateX(180deg) translateZ(150px);
+	}
+	.minbox li:nth-child(3){
+		background: url(img/03.gif) no-repeat 0 0;
+		-webkit-transform:rotateX(-90deg) translateZ(150px);
+	}
+	.minbox li:nth-child(4){
+		background: url(img/04.gif) no-repeat 0 0;
+		-webkit-transform:rotateX(90deg) translateZ(150px);
+	}
+	.minbox li:nth-child(5){
+		background: url(img/05.gif) no-repeat 0 0;
+		-webkit-transform:rotateY(-90deg) translateZ(150px);
+	}
+	.minbox li:nth-child(6){
+		background: url(img/06.gif) no-repeat 0 0;
+		-webkit-transform:rotateY(90deg) translateZ(150px);
+	}
+	.maxbox{
+		width: 400px;
+		height: 400px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		-webkit-transform-style: preserve-3d;
+	}
+	.maxbox li{
+		width: 300px;
+		height: 300px;
+		background:#FFFFFF;
+		border:10px solid #FFFFFF;
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0.2;
+		-webkit-transition:all 1s ease;
+	}
+	.maxbox li:nth-child(1){
+		-webkit-transform:translateZ(160px);
+	}
+	.maxbox li:nth-child(2){
+		-webkit-transform:rotateX(180deg) translateZ(160px);
+	}
+	.maxbox li:nth-child(3){
+		-webkit-transform:rotateX(-90deg) translateZ(160px);
+	}
+	.maxbox li:nth-child(4){
+		-webkit-transform:rotateX(90deg) translateZ(160px);
+	}
+	.maxbox li:nth-child(5){
+		-webkit-transform:rotateY(-90deg) translateZ(160px);
+	}
+	.maxbox li:nth-child(6){
+		-webkit-transform:rotateY(90deg) translateZ(160px);
+	}
+	.box:hover ol li:nth-child(1){
+		-webkit-transform:translateZ(300px);
+	}
+	.box:hover ol li:nth-child(2){
+		-webkit-transform:rotateX(180deg) translateZ(300px);
+	}
+	.box:hover ol li:nth-child(3){
+		-webkit-transform:rotateX(-90deg) translateZ(300px);
+	}
+	.box:hover ol li:nth-child(4){
+		-webkit-transform:rotateX(90deg) translateZ(300px);
+	}
+	.box:hover ol li:nth-child(5){
+		-webkit-transform:rotateY(-90deg) translateZ(300px);
+	}
+	.box:hover ol li:nth-child(6){
+		-webkit-transform:rotateY(90deg) translateZ(300px);
+	}
+	@keyframes move{
+            0% {
+                transform: rotate3D(360, 360, 360, 255deg);
+            }
+            to {
+                transform: rotate3D(360,360, 360, -100deg);
+            }
+        }
+        </style>
+</head>
+<body text="#FFFFFF">
+</body>
+<body background="img/bg.jpg">
+<embed src="img/感谢你曾来过.mp3" loop="true" hidden="true">
+<marquee behavior="alternate"><font face="华文行楷" color="red"size="6">陈仪玮是世界上最帅的人</font></marquee>
+<div class="box">
+	<ul class="minbox">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<ol class="maxbox">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+</div>
+<div class=cyw align="center">
+	     <p>邓仁星 喻民杰 刘璐文</p> 
+	     <p>戴晨兴 郑先文 陈仪玮</p>
+</div>
+<div class=cyw align="right">
+<b><br>设计者：男神玮</br></b>
+</div>
+</body>
+</html>
